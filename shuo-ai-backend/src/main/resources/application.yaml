@@ -12,3 +12,10 @@ server:
   servlet:
     context-path: /api
 
+
+# ??
+logging:
+  level:
+    org.springframework.ai.chat.client.advisor: debug
+    com.ls.ai: debug
+
