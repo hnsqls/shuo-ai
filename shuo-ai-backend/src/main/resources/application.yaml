@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: shuo-ai
+  ai:
+    ollama:
+      base-url: http://localhost:11434  # ???????
+      chat:
+        model: deepseek-r1:7b           # ????
+
+server:
+  port: 8111
+  servlet:
+    context-path: /api
+
